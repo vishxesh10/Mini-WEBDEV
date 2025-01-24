@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Complex form</h1>
+    <form>
+        <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name">
+        <label for="Email">Email:</label>
+        <input type="text" id="Email">
+        <label for="Phone">Phone</label>
+        <input type="text" id="Phone">
+        <label for="dob">Date Of Birth</label>
+        <input type="date" id="dob">
+        <label for="Gender">Gender:</label>
+        <label for="male">Male</label>
+        <input type="radio" id="gender" name="gender>
+        <label for="female">Female</label>
+        <input type="radio" id="gender" name="gender>
+        <label for="Country">Country</label>
+        <select id="country" name="country">
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="UK">UK</option>
+            <option value="Other">Other</option>
+        </select>
+        </fieldset>
+        <fieldset>
+            <legend>Address </legend>
+            <label for="Street">Street</label>
+            <input type="text" id="street" >
+            <label for="City">City</label>
+            <input type="text" id="City" >
+            <label for="State">State</label>
+            <input type="text" id="State" >
+            <label for="Zip code">Zip Code</label>
+            <input type="text" id="Zip Code" >
+        
+        </fieldset>
+
+        <fieldset>
+            <legend>Other information</legend>
+            <label for="Comments">Comments</label>
+            <input type="textArea" id="comments" rows="100" cols="100" placeholder="enter your comments">
+            <label for="comfirmation">Confirmation</label>
+            <label for="comfirmation">Yes</label>
+            <input type="checkbox" id="confirmation">
+            <label for="comfirmation">No</label>
+            <input type="checkbox" id="confirmation">
+        </fieldset>
+
+        <button>Submit</button>
+    </form>
+    
+</body>
+</html>
